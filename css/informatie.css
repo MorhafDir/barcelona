@@ -1,0 +1,168 @@
+/* text font*/
+body {
+    font-family: Arial;
+    background-color: darkblue;
+  }
+  
+  /* achtergrond Kleur*/
+  .content {
+  padding: 20px;
+  background: lightblue;
+  }
+  
+  /* fixed bar */
+  .fixedbar {
+  position: fixed;
+  top: 10;
+  width: 100%;
+  }
+  
+  
+  /* logo bar  */
+  
+  .topnav {
+  overflow: hidden;
+  background-color: darkblue;
+  border-style: solid;
+  
+  }
+  
+  .topnav a {
+  float: left;
+  width: 20%;
+  display: block;
+  color: darkblue;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+  }
+  
+  .topnav a:hover {
+  background-color: orange;
+  color: darkblue;
+  }
+  
+  .topnav a.active {
+  background-color: gray;
+  color: white;
+  color: darkblue;
+  }
+  
+  .topnav .search-container {
+  float: right;
+  margin: 1em;
+  }
+  
+  
+  /* logo */
+  .logo {
+  float: left;
+  width: 20%;
+  margin-left: 30px;
+  margin-top: 10px;
+  margin-bottom: 10px;
+  }
+  
+  /* dropdown menu en balk */
+  .menu-nav {
+  background-color: darkblue;
+  display: flex;
+  justify-content: space-between;
+  }
+  
+  .menu-item:nth-child(3){
+  background-color: darkslateblue;
+  }
+  
+  .menu-item {
+  color: white;
+  padding: 3px;
+  }
+  
+  .menu-item {
+  position: relative;
+  display: inline-block;
+  }
+  
+  .menu-item:hover .dropdown-content {
+  display: block;
+  }
+  
+  .dropdown-link {
+  display: block;
+  color: darkblue;
+  }
+  
+  .menu-item:hover {
+  background-color: deepskyblue;
+  }
+  
+  .three-dots:after {
+  cursor: pointer;
+  color: white;
+  content: '\2807';
+  padding: 0 5px;
+  }
+  
+  a {
+  text-decoration: none;
+  color: white;
+  }
+  
+  a div {
+  padding: 2px;
+  }
+  
+  .dropdown {
+  position: absolute;
+  right: 10px;
+  background-color: white;
+  box-shadow: 0px 0px 3px 3px white;
+  outline: none;
+  opacity: 0;
+  z-index: -1;
+  max-height: 0;
+  }
+  
+  .dropdown-container:focus {
+  outline: none;
+  }
+  
+  .dropdown-container:focus .dropdown {
+  opacity: 1;
+  z-index: 100;
+  }
+  
+  /* search bar logotje */
+  .topnav input[type=text] {
+  padding: 6px;
+  margin-top: 8px;
+  border: none;
+  }
+  
+  /* Inhoud verrassend barca */
+  .fixedinhoud {
+  margin-top: 200px;
+  }
+  
+  .info {
+  background-color: lightblue;
+  
+  padding: 1em 1em;
+  outline: none;
+  border-radius: 10px;
+  text-align: center;
+  border-color: darkblue;
+  border-style: solid;
+  font-style: italic;
+  margin: 5px;
+  }
+
+  /* footer voor info etc */
+  .footer {
+  width: 100%;
+  background-color: lightblue;
+  color: darkblue;
+  text-align: center;
+  border-style: solid;
+  }

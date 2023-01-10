@@ -1,0 +1,136 @@
+/* text font*/
+body {
+  font-family: Arial;
+  background-color: darkblue;
+}
+
+/* achtergrond Kleur*/
+.content {
+padding: 20px;
+background: lightblue;
+}
+
+/* fixed bar */
+.fixedbar {
+position: fixed;
+top: 10;
+width: 100%;
+}
+
+
+/* logo bar  */
+
+.topnav {
+overflow: hidden;
+background-color: darkblue;
+border-style: solid;
+
+}
+
+.topnav a {
+float: left;
+width: 20%;
+display: block;
+color: darkblue;
+text-align: center;
+padding: 14px 16px;
+text-decoration: none;
+}
+
+.topnav a:hover {
+background-color: orange;
+color: darkblue;
+}
+
+.topnav a.active {
+background-color: gray;
+color: white;
+color: darkblue;
+}
+
+.topnav .search-container {
+float: right;
+margin: 1em;
+}
+
+
+/* logo */
+.logo {
+float: left;
+width: 20%;
+margin-left: 30px;
+margin-top: 10px;
+margin-bottom: 10px;
+}
+
+/* dropdown menu en balk */
+.menu-nav {
+background-color: darkblue;
+display: flex;
+justify-content: space-between;
+}
+
+.menu-item:nth-child(4){
+background-color: darkslateblue;
+}
+
+.menu-item {
+color: white;
+padding: 3px;
+position: relative;
+display: inline-block;
+}
+
+menu-item:hover .dropdown-content {
+  display: block;
+  }
+
+.menu-item:hover {
+      background-color: deepskyblue;
+      }
+
+
+
+a {
+text-decoration: none;
+color: white;
+}
+
+a div {
+padding: 2px;
+}
+
+
+/* search bar logotje */
+.topnav input[type=text] {
+padding: 6px;
+margin-top: 8px;
+border: none;
+}
+
+/* Verassend barca  */
+.fixedinhoud {
+margin-top: 200px;
+}
+
+.info {
+background-color: lightblue;
+
+padding: 1em 1em;
+outline: none;
+border-radius: 10px;
+text-align: center;
+border-color: darkblue;
+border-style: solid;
+font-style: italic;
+margin: 5px;
+}
+
+/* footer voor info etc */
+.footer {
+width: 100%;
+background-color: lightblue;
+color: darkblue;
+text-align: center;
+border-style: solid;
+}
